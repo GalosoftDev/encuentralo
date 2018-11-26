@@ -1,0 +1,9 @@
+/* Start : my own styles*/
+.titulos {
+    font-family: 'Pacifico', cursive;
+    text-shadow: 4px 4px 4px #aaa;
+  }
+  
+  .alert{
+    color: #B1251E;
+  }
