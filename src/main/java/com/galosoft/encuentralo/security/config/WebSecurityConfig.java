@@ -28,7 +28,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
 	public void configure(HttpSecurity http) throws Exception {
 		http.authorizeRequests().
 		antMatchers("/", "/productList", "/productList/viewProduct/**","/showReg","/showLogin" ,"/login", "/login/**",
-				    "/registerUser","/css/**", "/js/**", "/img/**", "/fonts/**", "/imgs/**","/cart/**").permitAll().
+				    "/registerUser","/css/**", "/js/**", "/img/**", "/font/**", "/imgs/**","/cart/**").permitAll().
 		antMatchers("/admin/**","/admin").hasAnyAuthority("ADMIN").anyRequest().authenticated().and().csrf().disable();
 		 
 		

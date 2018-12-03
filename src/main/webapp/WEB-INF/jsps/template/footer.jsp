@@ -89,5 +89,12 @@
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.min.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/boot-business.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/angular.1.0.2.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/controller.js"></script>
+    
   </body>
 </html>
+
+
+
+
